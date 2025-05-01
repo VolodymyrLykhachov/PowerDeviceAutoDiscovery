@@ -1,0 +1,37 @@
+{
+    "availability": [
+        {
+            "topic": "zigbee2mqtt/bridge/state",
+            "value_template": "{{ value_json.state }}"
+        },
+        {
+            "topic": "zigbee2mqtt/AllLamps din/availability",
+            "value_template": "{{ value_json.state }}"
+        }
+    ],
+    "availability_mode": "all",
+    "command_topic": "zigbee2mqtt/AllLamps din/set",
+    "device": {
+        "hw_version": 1,
+        "identifiers": [
+            "zigbee2mqtt_0xe0798dfffe51eaba"
+        ],
+        "manufacturer": "Tongou",
+        "model": "Smart circuit breaker",
+        "model_id": "TO-Q-SY2-163JZT",
+        "name": "AllLamps din",
+        "via_device": "zigbee2mqtt_bridge_0x00124b0018f1d9d8"
+    },
+    "name": null,
+    "object_id": "alllamps_din",
+    "origin": {
+        "name": "Zigbee2MQTT",
+        "sw": "2.2.1",
+        "url": "https://www.zigbee2mqtt.io"
+    },
+    "payload_off": "OFF",
+    "payload_on": "ON",
+    "state_topic": "zigbee2mqtt/AllLamps din",
+    "unique_id": "0xe0798dfffe51eaba_switch_zigbee2mqtt",
+    "value_template": "{{ value_json.state }}"
+}

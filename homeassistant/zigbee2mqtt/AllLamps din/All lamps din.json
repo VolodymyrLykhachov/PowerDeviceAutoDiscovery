@@ -1,0 +1,28 @@
+{
+    "countdown": null,
+    "current": 0.97,
+    "energy": 624.48,
+    "indicator_mode": "off/on",
+    "linkquality": 185,
+    "over_current_breaker": "ON",
+    "over_current_threshold": 41,
+    "over_voltage_breaker": "ON",
+    "over_voltage_threshold": 0,
+    "power": 169,
+    "power_breaker": "ON",
+    "power_outage_memory": "restore",
+    "power_threshold": 13,
+    "state": "ON",
+    "temperature": 34.07,
+    "temperature_breaker": "ON",
+    "temperature_threshold": 100,
+    "under_voltage_breaker": "ON",
+    "under_voltage_threshold": 0,
+    "update": {
+        "installed_version": 67,
+        "latest_version": 67,
+        "state": "idle"
+    },
+    "update_available": false,
+    "voltage": 223
+}
